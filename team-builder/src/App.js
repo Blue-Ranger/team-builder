@@ -9,7 +9,7 @@ const WrapperDiv = styled.div`
   width: 100%;
   height: 100%;
   text-align: center;
-  background-color: black;
+  background-color: white;
   color: white;
 `;
 const BodyDiv = styled.h1`
@@ -17,7 +17,7 @@ const BodyDiv = styled.h1`
   font-size: 20px;
 `;
 
-function App() {
+const App = () => {
   const [teamMembers, setTeamMembers] = useState([
     {
       name: "Juicy Fruit",
@@ -35,6 +35,6 @@ function App() {
       </BodyDiv>
     </WrapperDiv>
   );
-}
+};
 
 export default App;

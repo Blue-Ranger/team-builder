@@ -1,7 +1,7 @@
 import React from "react";
 import MemberCard from "./MemberCard";
 
-function TeamMembers(props) {
+const TeamMembers = (props) => {
   return (
     <div>
       <h1>Team Members</h1>
@@ -11,6 +11,6 @@ function TeamMembers(props) {
       ))}
     </div>
   );
-}
+};
 
 export default TeamMembers;
